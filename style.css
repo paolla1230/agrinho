@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+section {
+    background: white;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul {
+    line-height: 1.8;
+}
+
+.simulador {
+    background: #e8f5e9;
+}
+
+button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+#sketch-holder {
+    margin-top: 10px;
+}

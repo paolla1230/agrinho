@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Água Vale Ouro</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Água Vale Ouro</h1>
+    <p>Uso consciente da água na agricultura</p>
+</header>
+
+<main>
+
+    <!-- INTRO -->
+    <section>
+        <h2>💧 Por que a água no campo é tão importante?</h2>
+        <p>
+            A agricultura consome grande parte da água doce do mundo.
+            Quando há desperdício, isso afeta a produção de alimentos,
+            aumenta custos e prejudica o meio ambiente.
+        </p>
+    </section>
+
+    <!-- COMO ACONTECE O DESPERDÍCIO -->
+    <section>
+        <h2>🚜 Como o desperdício acontece no campo</h2>
+
+        <ul>
+            <li>Irrigação em horários quentes (maior evaporação)</li>
+            <li>Sistemas de irrigação mal regulados</li>
+            <li>Vazamentos em tubulações agrícolas</li>
+            <li>Falta de sensores de umidade no solo</li>
+            <li>Excesso de água além da necessidade da planta</li>
+        </ul>
+    </section>
+
+    <!-- CONSEQUÊNCIAS -->
+    <section>
+        <h2>⚠️ Impactos do desperdício de água</h2>
+
+        <ul>
+            <li>Redução da produtividade agrícola</li>
+            <li>Aumento do custo de produção</li>
+            <li>Esgotamento de rios e reservatórios</li>
+            <li>Perda de nutrientes do solo</li>
+            <li>Desequilíbrio ambiental</li>
+        </ul>
+    </section>
+
+    <!-- SOLUÇÕES -->
+    <section>
+        <h2>🌿 Boas práticas para economizar água</h2>
+
+        <ul>
+            <li>Irrigação por gotejamento</li>
+            <li>Uso de sensores de umidade</li>
+            <li>Captação da água da chuva</li>
+            <li>Irrigação em horários adequados (manhã ou fim da tarde)</li>
+            <li>Manutenção constante dos sistemas</li>
+        </ul>
+    </section>
+
+    <!-- SIMULADOR -->
+    <section class="simulador">
+        <h2>💧 Simulador de desperdício de água</h2>
+
+        <p>Arraste para ver o nível de desperdício diário:</p>
+
+        <input type="range" id="agua" min="0" max="1000" value="200">
+        <p id="valorSlider">200 litros/dia</p>
+
+        <p id="mensagem"></p>
+
+        <div id="sketch-holder"></div>
+    </section>
+
+    <!-- QUIZ -->
+    <section class="quiz">
+        <h2>🎯 Quiz educativo</h2>
+
+        <p>Qual prática é mais sustentável na irrigação?</p>
+
+        <button class="quiz-btn" data-correto="false">Irrigação por inundação</button>
+        <button class="quiz-btn" data-correto="true">Irrigação por gotejamento</button>
+        <button class="quiz-btn" data-correto="false">Irrigação excessiva</button>
+
+        <p id="respostaQuiz"></p>
+    </section>
+
+    <!-- REFERÊNCIAS -->
+    <section>
+        <h2>📚 Referências</h2>
+        <ul>
+            <li>FAO – Organização das Nações Unidas para Alimentação e Agricultura</li>
+            <li>ANA – Agência Nacional de Águas</li>
+            <li>Embrapa – Agricultura Sustentável</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>Projeto Agrinho 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
